@@ -37,12 +37,7 @@ public class Main {
         Reader reader = new FileReader(file);
         BufferedReader br = new BufferedReader(reader);
 
-		// not relevant:
-		// final Map<Integer, String> WEATHER = new HashMap<>();
-		// 	WEATHER.put(1, "Clear, Few clouds, Partly cloudy, Partly cloudy");
-		// 	WEATHER.put(2, "Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist");
-		// 	WEATHER.put(3, "Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds");
-		// 	WEATHER.put(4, "Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog");
+		
 
 		String position = "";
 		String season = "";
@@ -57,7 +52,7 @@ public class Main {
 
 		
 	
-		// psudo code
+		// pseudo code
 		// create a <total> variable that sums the casual and registered cyclist derived from the csv file.
 		// create a list to add the respective <total> values.
 		List<MyUtilities> topFivePositions = new ArrayList<>();
